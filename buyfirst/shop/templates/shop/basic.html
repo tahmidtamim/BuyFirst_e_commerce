@@ -1,0 +1,128 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+      {% load static %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!--&lt;!&ndash; Bootstrap style responsive &ndash;&gt;-->
+    <link href="{% static 'shop/css/bootstrap-responsive.min.css' %}" rel="stylesheet"/>
+
+    <title>{% block title%} {% endblock %}</title>
+
+    <style>
+    #footerSection {background: #202020;color: red;padding: 28px 0 44px;margin-top: 20px;border-top: 1px solid #444;}
+    #footerSection a{color:#000; font-size:12px; padding:0; line-height:24px; display:block; }
+    #footerSection a:hover{color:#fff;  }
+    #footerSection  #socialMedia a{ min-width:25px; display:inline; margin-right:6px; text-align:center; line-height:1.5em;}
+    #socialMedia img{max-width:40px;}
+    #footerSection  #socialMedia a:hover{background:none;}
+    {% block css %} {% endblock %}
+    </style>
+
+  </head>
+
+  <body>
+
+
+    <!-----------------------------navber here------------------------>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-info">
+  <a class="navbar-brand" href="/shop"><img src="{% static 'shop/images/icon.PNG' %}" height="50" width="150"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/shop">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/shop/about">About Us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/shop/tracker">Tracker</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/blog"></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="/shop/contact">Contact Us</a>
+      </li>
+
+
+    </ul>
+    <form method='get' action='/shop/search/' class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" id="search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <button type="button" class="btn btn-warning mx-2" id="popcart" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus.">
+
+
+  Cart(<span id="cart">0</span>)
+</button>
+  </div>
+</nav>
+
+  <!-----------------------------end of navber----------------------------------------->
+
+  {% block body %} {% endblock %}
+
+  <!------------------------footter----------------->
+
+   	<div  id="footerSection" class="bg-info text-dark">
+	<div class="container ">
+		<div class="row">
+			<div class="span3">
+				<h5>ACCOUNT</h5>
+				<a href="login.html">YOUR ACCOUNT</a>
+				<a href="login.html">PERSONAL INFORMATION</a>
+				<a href="login.html">ADDRESSES</a>
+				<a href="login.html">DISCOUNT</a>
+				<a href="login.html">ORDER HISTORY</a>
+			 </div>
+			<div class="span3">
+				<h5>INFORMATION</h5>
+				<a href="contact.html">CONTACT</a>
+				<a href="register.html">REGISTRATION</a>
+				<a href="legal_notice.html">LEGAL NOTICE</a>
+				<a href="tac.html">TERMS AND CONDITIONS</a>
+				<a href="faq.html">FAQ</a>
+			 </div>
+			<div class="span3">
+				<h5>OUR OFFERS</h5>
+				<a href="#">NEW PRODUCTS</a>
+				<a href="#">TOP SELLERS</a>
+				<a href="special_offer.html">SPECIAL OFFERS</a>
+				<a href="#">MANUFACTURERS</a>
+				<a href="#">SUPPLIERS</a>
+			 </div>
+			<div id="socialMedia" class="span3 pull-right">
+				<h5>SOCIAL MEDIA </h5>
+				<a href="//facebook.com"><img width="40" height="40" src="{% static 'shop/images/facebook.png' %}" title="facebook" alt="facebook"/></a>
+				<a href="//twitter.com"><img width="40" height="40" src="{% static 'shop/images/twitter.png' %}" title="twitter" alt="twitter"/></a>
+				<a href="//youtube.com"><img width="40" height="40" src="{% static 'shop/images/youtube.png' %}" title="youtube" alt="youtube"/></a>
+			 </div>
+		 </div>
+		<p class="pull-right">&copy; BbuyFirst</p>
+	</div>
+	</div>
+<!---------------------------footter End ----------------------------->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    {% block js %} {% endblock %}
+  </body>
+</html>

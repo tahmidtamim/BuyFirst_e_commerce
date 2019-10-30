@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+STATICFILES_DIRS = ["/shop/static"]
 # Application definition
 
 INSTALLED_APPS = [

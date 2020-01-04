@@ -29,8 +29,8 @@
 
 
     <!-----------------------------navber here------------------------>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-info">
-  <a class="navbar-brand" href="/shop"><img src="{% static 'shop/Buyfirst11.png' %}" height="50" width="150"></a>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-info text-warning">
+  <a class="mr-5 py-0 my-0" href="/shop"><img src="{% static 'shop/Buyfirst11.png' %}" height="40" width="130"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,34 +40,29 @@
       <li class="nav-item active">
         <a class="nav-link" href="/shop">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="/shop/about">About Us</a>
       </li>
-
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="/shop/tracker">Tracker</a>
       </li>
-
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="/blog"></a>
       </li>
-
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="/shop/contact">Contact Us</a>
       </li>
-
-
     </ul>
+
     <form method='get' action='/shop/search/' class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search" id="search">
       <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
     </form>
-    <button type="button" class="btn btn-info mx-2" id="popcart" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus
-sagittis lacus vel augue laoreet rutrum faucibus.">
 
-
-<img src="{% static 'shop/cart1.png' %}" height="40" width="40"><span id="cart">0</span>
-</button>
+    <button type="button" class="btn btn-info ml-2 py-0" id="popcart" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="Vivamus
+     sagittis lacus vel augue laoreet rutrum faucibus.">
+        <img src="{% static 'shop/cart1.png' %}" height="40" width="40"><span class="text-warning" id="cart">0</span>
+    </button>
   </div>
 </nav>
 
@@ -111,7 +106,7 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
 				<a href="//youtube.com"><img width="40" height="40" src="{% static 'shop/images/youtube.png' %}" title="youtube" alt="youtube"/></a>
 			 </div>
 		 </div>
-		<p class="pull-right">&copy; BbuyFirst</p>
+		<p class="pull-right">&copy; BuyFirst</p>
 	</div>
 	</div>
 <!---------------------------footter End ----------------------------->

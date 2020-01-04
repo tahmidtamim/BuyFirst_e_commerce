@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="72041c5c-43b2-4b05-bc0a-da17ccf84081" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buyfirst/shop/static/shop/Buyfirst2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buyfirst/shop/static/shop/Buyfirst3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buyfirst/shop/static/shop/Buyfirst4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buyfirst/shop/static/shop/Buyfirst5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buyfirst/shop/static/shop/Buyfirst8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buyfirst/shop/static/shop/Buyfirst9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/buyfirst/shop/templates/shop/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/buyfirst/shop/templates/shop/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buyfirst/shop/templates/shop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/buyfirst/shop/templates/shop/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buyfirst/shop/templates/shop/prodView.html" beforeDir="false" afterPath="$PROJECT_DIR$/buyfirst/shop/templates/shop/prodView.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,41 +18,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/prodView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="34" column="126" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
+            <state relative-caret-position="2975">
+              <caret line="175" column="14" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
               <folding>
+                <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#span#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/basic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+            <state relative-caret-position="1955">
+              <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1972">
-              <caret line="116" column="68" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="68" />
+            <state relative-caret-position="586">
+              <caret line="58" column="72" lean-forward="true" selection-start-line="58" selection-start-column="72" selection-end-line="58" selection-end-column="72" />
               <folding>
                 <element signature="e#3747#3768#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buyfirst/shop/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -91,14 +78,14 @@
         <option value="$PROJECT_DIR$/buyfirst/buyfirst/settings.py" />
         <option value="$PROJECT_DIR$/buyfirst/shop/static/shop/base.css" />
         <option value="$PROJECT_DIR$/buyfirst/shop/static/shop/font-awesome.css" />
-        <option value="$PROJECT_DIR$/buyfirst/shop/templates/shop/index.html" />
         <option value="$PROJECT_DIR$/buyfirst/shop/models.py" />
+        <option value="$PROJECT_DIR$/buyfirst/shop/templates/shop/index.html" />
         <option value="$PROJECT_DIR$/buyfirst/shop/templates/shop/prodView.html" />
         <option value="$PROJECT_DIR$/buyfirst/shop/templates/shop/basic.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
@@ -201,8 +188,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="846" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14398943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -294,16 +280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buyfirst/shop/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buyfirst/shop/static/shop/font-awesome.css" />
     <entry file="file://$PROJECT_DIR$/buyfirst/buyfirst/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -313,26 +289,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buyfirst/shop/static/shop/base.css" />
-    <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/prodView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="34" column="126" selection-start-line="34" selection-start-column="126" selection-end-line="34" selection-end-column="126" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#span#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="68" selection-start-line="116" selection-start-column="61" selection-end-line="116" selection-end-column="68" />
-          <folding>
-            <element signature="e#3747#3768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buyfirst/shop/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -340,10 +296,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/buyfirst/shop/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="91" column="60" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/prodView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="14" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#span#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/basic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+        <state relative-caret-position="1955">
+          <caret line="115" column="32" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buyfirst/shop/templates/shop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="58" column="72" lean-forward="true" selection-start-line="58" selection-start-column="72" selection-end-line="58" selection-end-column="72" />
+          <folding>
+            <element signature="e#3747#3768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
